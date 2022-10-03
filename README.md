@@ -1,2 +1,3 @@
-# Addition-of-Matrix.
-Addition Of Two matrix Using Pointers in C language.
+# Code Of C 
+Examples of C languages.
+
