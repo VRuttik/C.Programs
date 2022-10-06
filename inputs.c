@@ -13,7 +13,7 @@ int main(){
 
    // Print the values of variables
 
-   printf("\nNumber = %d \nAmount = %f \nLetter = %c \nPopulation of India = %ld \nMessage = %s",
+   printf("\nNumber = %d \nAmount = %f \nLetter = %c \nPi = %e \nPopulation of India = %ld \nMessage = %s",
           number, amount, letter, pi, population_of_india, message);
 
     return 0;
