@@ -1,0 +1,35 @@
+#include<stdio.h>
+
+   int biggest(int n1, int n2, int n3);
+
+   int main(){
+
+       int a,b,c,result;
+
+       printf("Enter the first number: ");
+       scanf("%d", &a);
+       printf("Enter the second number: ");
+       scanf("%d", &b);
+       printf("Enter the third number: ");
+       scanf("%d", &c);
+
+     result = biggest(a,b,c);
+
+      printf("Biggest Number is: %d", result);
+
+     return 0;
+   }
+
+   int biggest(int n1, int n2, int n3){
+
+   if(n1>n2 && n1>n3){
+   return n1;
+   }
+    else if(n2>n1 && n2>n3){
+   return n2;
+   }
+   else{
+    return n3;
+   }
+   }
+
