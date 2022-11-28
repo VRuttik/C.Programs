@@ -1,0 +1,26 @@
+#include<stdio.h>
+
+int time_in_mins(int Hours, int Minutes);
+
+int main(){
+
+   int hours, minutes, total_minutes;
+
+   printf("Enter the Hours: ");
+   scanf("%d", &hours);
+
+   printf("Enter the Minutes: ");
+   scanf("%d", &minutes);
+
+   total_minutes = time_in_mins(hours,minutes);
+
+   printf("Total Minutes is: %d", total_minutes);
+
+   return 0;
+}
+   int time_in_mins(int Hours,int Minutes){
+    return (Hours*60 + Minutes);
+
+
+   }
+
